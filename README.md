@@ -49,7 +49,7 @@ This version is intended to run in a normal Linux x86-64 environment.
 Compile with:
 
 ```bash
-gcc -x assembler -nostdlib -no-pie -o a.out claim_game_standalone.asm
+gcc -x assembler -nostdlib -no-pie -o a.out claim_game.asm
 ```
 
 ## Run
