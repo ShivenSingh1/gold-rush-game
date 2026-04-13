@@ -1,10 +1,8 @@
 .intel_syntax noprefix
 
 # Standalone Linux x86-64 version of the claim game.
-# Build example:
-#   gcc -nostdlib -no-pie -o a.out claim_game_standalone.asm
-# Run:
-#   ./a.out
+# Build example: gcc -nostdlib -no-pie -o a.out claim_game_standalone.asm
+# Run: ./a.out
 
 .section .data
 Game:
