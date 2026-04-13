@@ -1119,7 +1119,7 @@ GetRandom:
 
     mov rcx, 6364136223846793005
     imul rax, rcx
-    add rax, 1442695040888963407
+    mov rcx, 1442695040888963407
     add rax, rcx
     mov [rng_state], rax
 
